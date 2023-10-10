@@ -13,7 +13,7 @@ export default function TextForm(props) {
     const [text,setText] = useState("Enter text here");
   return (
     <>
-        <div className='mb-5 commmit done in beta branch will not be in main'>
+        <div className='mb-5 contd textform commit in beta'>
         <h1>{props.heading}</h1>
         <div className="mb-3">
             <textarea className="form-control" value = {text} onChange = {handleOnChange} id="exampleFormControlTextarea1" rows="8"></textarea>
