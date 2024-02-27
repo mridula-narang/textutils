@@ -22,7 +22,7 @@ export default function TextForm(props) {
     const [text,setText] = useState("");
   return (
     <>
-        <div className='mb-5'>
+        <div className='mb-5 now i have made changes from my side hope you check them out'>
         <h1>{props.heading}</h1>
         <div className="mb-3">
             <textarea className="form-control" value = {text} onChange = {handleOnChange} id="exampleFormControlTextarea1" rows="8"></textarea>
